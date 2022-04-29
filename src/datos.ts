@@ -5,3 +5,4 @@ let rotulo = document.getElementById("rotulo");
 btnEnv.addEventListener("click", () => {
   console.log("el dato ingresado es", dato.value);
 });
+rotulo.innerHTML = "Ingrese un dato: ";
